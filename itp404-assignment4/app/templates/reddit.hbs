@@ -1,0 +1,13 @@
+
+
+{{#each model as |reddit|}}
+      <div class = "result">
+        <p> Score: {{reddit.data.score}} </p>
+        <p> Title: {{reddit.data.url}} </p>
+        <p> Comment Count: {{reddit.data.num_comments}} </p>
+        <p> Archived: {{reddit.data.archived}} </p>
+      </div>
+{{/each}}
+
+
+{{outlet}}

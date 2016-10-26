@@ -1,0 +1,10 @@
+.result {
+    background-color: #E1F3EF;
+    border-radius: 20px;
+    line-height: 90%;
+}
+
+#main {
+  height: 400px;
+  background-image: url("http://core0.staticworld.net/images/article/2012/11/reddit_log-100011890-large.jpg");
+}
